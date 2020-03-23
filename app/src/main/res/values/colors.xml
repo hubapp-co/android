@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#150f04</color>
+    <color name="colorPrimaryDark">#EBECEC</color>
+    <color name="colorAccent">#c48b29</color>
+
+     <color name="colorPrimary1">#c48b29</color>
+
+    //moh
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="view_divider_color">#F9f9f9</color>
+    <color name="view_divider_color_2">#F9f9f9</color>
+    <color name="view2">#f4e9e9</color>
+
+    <color name="test">#797b7b</color>
+    <color name="tabback">#d9d7d7</color>
+    <color name="tabback1">#b7b7b7</color>
+
+
+    //fold - cell
+
+    <color name="bgBackSideColor">#f4f0ff</color>
+    <color name="bgTitleLeft">#594691</color>
+    <color name="bgTitleRight">#ffffff</color>
+    <color name="bgContentTop">#594691</color>
+    <color name="bgContent">#ffffff</color>
+    <color name="contentDividerLine">#e0e0e0</color>
+    <color name="contentBadgeTitle">#a9a9a9</color>
+    <color name="titleBadgeTitle">#adafb1</color>
+    <color name="titleBadgeText">#878989</color>
+    <color name="mainTextColor">#343d43</color>
+    <color name="btnRequest">#ffbf12</color>
+
+    //demo
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="white">#FFFFFF</color>
+    <color name="edtHint">#534d4d</color>
+    <color name="tint">#FFFFFF</color>
+
+    <color name="backgroundGrey">#C5CCD4</color>
+    <color name="DEFAULT">#FFFFFF</color>
+    <color name="normal">#b0b0b0</color>
+    <color name="light">#ffffff</color>
+    <color name="dark">#000000</color>
+    <color name="highlight">#38c0f4</color>
+    <color name="black">#000000</color>
+    <color name="EMERG">#FF0000</color>
+    <color name="ALERT">#E47297</color>
+    <color name="CRIT">#F1433F</color>
+    <color name="ERR">#336699</color>
+    <color name="WARN">#F7E967</color>
+    <color name="NOTICE">#A9CF54</color>
+    <color name="INFO">#70B7BA</color>
+    <color name="DEBUG">#FF6600</color>
+    <color name="borderGrey">#A1A7AE</color>
+    <color name="textColor">#5d5e5e</color>
+    <color name="boldtext">#000000</color>
+    <color name="purple_start">#9b256b</color>
+    <color name="purple_end">#5d2761</color>
+
+
+</resources>

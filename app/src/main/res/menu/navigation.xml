@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/foody"
+        android:title="Feeds" />
+    <item
+        android:id="@+id/foody"
+        android:icon="@drawable/event"
+        android:title="Event" />
+    <item
+        android:id="@+id/review"
+        android:icon="@drawable/review"
+        android:title="Post" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/recomend"
+        android:title="Hub"
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"
+        />
+
+</menu>

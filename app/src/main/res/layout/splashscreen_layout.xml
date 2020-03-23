@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F2F2"
+   >
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="233dp"
+        android:layout_height="342dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="60dp"
+        android:src="@mipmap/logo_hub"/>
+
+    <TextView
+        android:id="@+id/txtSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="308dp"
+        android:contentDescription="HUB"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Refresh the Entertainment and Fun"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="Welcome to the World of Crispy and Delicious Dish Items"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Version 1.0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Welcome to the World of Crispy and Delicious Dish Items"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=" eHUB Private Limited."
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

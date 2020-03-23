@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#F3F2F2"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#F3F2F2"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="220dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="60dp"
+        android:src="@mipmap/logo_hub" />
+
+    <TextView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:text="Sign up today to start seeing HUBs in the places you love" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/inputMobileLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/white"
+                android:fontFamily="sans-serif-light"
+                android:hint="Username"
+                android:inputType="textVisiblePassword"
+                android:maxLength="10"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null"
+                android:textSize="18dp" />
+
+            <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/white"
+            android:fontFamily="sans-serif-light"
+            android:hint="Password"
+            android:inputType="textVisiblePassword"
+            android:maxLength="10"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textCursorDrawable="@null"
+            android:textSize="18dp" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/inputForgot"-->
+            <!--android:layout_width="240dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="15dp"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:fontFamily="sans-serif-light"-->
+            <!--android:hint="@string/lbl_cpass"-->
+            <!--android:inputType="textVisiblePassword"-->
+            <!--android:maxLength="10"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:textCursorDrawable="@null"-->
+            <!--android:textSize="18dp" />-->
+
+
+
+
+            <Button
+                android:id="@+id/btn_request_login"
+                android:text=" Login "
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_request_reg"
+            android:text=" Sign up with Email "
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/flog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_facebook_login"
+            android:text="Sign up with Facebook "
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/glog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/light_theme_google_icon_selector"
+            android:text="Sign up with Google"
+            android:textAllCaps="false"
+            android:textColor="@color/browser_actions_text_color"/>
+    </LinearLayout>
+
+
+    <ProgressBar
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:id="@+id/progress"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+
+</LinearLayout>
+</ScrollView>
